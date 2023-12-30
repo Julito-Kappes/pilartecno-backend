@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import Joi from "joi";
 
-export function validateStarBody(
+export function validatePlaceBody(
   req: Request,
   res: Response,
   next: NextFunction
@@ -10,14 +10,20 @@ export function validateStarBody(
   const schema = Joi.object({
     name: Joi.string().required(),
     type: Joi.string(),
-    distancia: Joi.string(),
-    mass: Joi.string(),
-    radius: Joi.string(),
-    temperature: Joi.string(),
-    luminosity: Joi.string(),
-    age: Joi.string(),
-    composition: {},
-    stellar_history: Joi.string(),
+    image: Joi.string(),
+    localization: {
+      adress: Joi.string(),
+      altitude: Joi.number(),
+      longitude: Joi.number(),
+      link: Joi.string(),
+    },
+    contact: {
+      webLink: Joi.string(),
+      phone: Joi.number(),
+      instagram: Joi.string(),
+      facebook: Joi.string(),
+      email: Joi.string(),
+    },
   });
   const { error, value } = schema.validate(body);
   if (error) {

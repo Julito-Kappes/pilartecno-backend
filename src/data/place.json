@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Universidad Nacional de La Rioja",
+    "type": "Educación",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elindependiente.com.ar%2Fpagina.php%3Fid%3D332903&psig=AOvVaw1l3CLJfpR2ojtbxnbmMtJB&ust=1701542223411000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjHzPDw7oIDFQAAAAAdAAAAABAJ",
+    "localization": {
+      "adress": "Av. Luis M. de la Fuente S/N, Ciudad Universitaria de la Ciencia y de la Técnica, F5300 La Rioja",
+      "altitude": "",
+      "longitude": "",
+      "link": "https://maps.app.goo.gl/q8Z7yzdMx6a6QQpz7"
+    },
+
+    "contact": {
+      "webLink": "https://www.unlar.edu.ar/",
+      "phone": "03804457004",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "Universidad Nacional de La Rioja",
+    "type": "Esparcimiento",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Friojavirtual.com.ar%2Fdenuncian-cesantias-en-osunlar-somos-victimas-de-un-conflicto-politico%2F&psig=AOvVaw0WKV3H9RDpti-eAPoUs0Xt&ust=1701542877162000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMi3qajz7oIDFQAAAAAdAAAAABAE",
+    "localization": {
+      "adress": "Calle Los Tilos, Los Platanos esq, F5300 La Rioja",
+      "altitude": "",
+      "longitude": "",
+      "link": "https://maps.app.goo.gl/kqEUTqZ6MinJFqdE9"
+    },
+
+    "contact": {
+      "webLink": "https://osunlar.org/prestacion/383",
+      "phone": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  }
+]
